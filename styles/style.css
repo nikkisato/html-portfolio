@@ -274,4 +274,19 @@ nav ul {
             transform: rotateZ(360deg);
   }
 }
+
+@media screen and (max-width: 1332px) {
+  html {
+    font-size: 53%;
+  }
+  .splash {
+    display: none;
+  }
+  svg {
+    width: 80%;
+  }
+  nav {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
